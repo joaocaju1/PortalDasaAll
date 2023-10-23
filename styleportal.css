@@ -127,7 +127,7 @@ body {
 
 /* Estilos para o cabeçalho */
 header {
-    background: #0077b6;
+    background: #000000;
     color: #fff;
     padding: 20px 0;
 }
@@ -150,11 +150,17 @@ header ul {
 
 header ul li {
     margin-right: 20px;
+    font-size: 22px;
 }
 
 header ul li a {
     text-decoration: none;
     color: #fff;
+}
+
+header ul li a:hover {
+    text-decoration: none;
+    color: #0cb0ec;
 }
 
 /* Estilos para a seção de banner */
@@ -184,7 +190,7 @@ header ul li a {
 
 /* Estilos para o rodapé */
 footer {
-    background: #0077b6;
+    background: #000000;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -246,6 +252,7 @@ footer {
     gap: 30px;
 }
 .botoes button{
+    font-size: 17px;
     margin-top: 20px;
     background-color: rgb(5, 226, 255);
     border: 0px;
@@ -272,19 +279,19 @@ footer {
   /* Defina a animação para mudar a cor a cada 5 segundos (5000ms) */
   @keyframes changeColor {
     0% {
-      color: rgb(255, 0, 0); /* Vermelho */
+      color: rgb(0, 166, 255); /* Vermelho */
     }
     25% {
-      color: rgb(0, 255, 0); /* Verde */
+      color: rgb(0, 98, 255); /* Verde */
     }
     50% {
-      color: rgb(0, 0, 255); /* Azul */
+      color: rgb(0, 60, 255); /* Azul */
     }
     75% {
-      color: rgb(255, 255, 0); /* Amarelo */
+      color: rgb(0, 115, 255); /* Amarelo */
     }
     100% {
-      color: rgb(255, 0, 255); /* Magenta */
+      color: rgb(64, 0, 255); /* Magenta */
     }
   }
   
@@ -348,20 +355,20 @@ footer {
       /* Defina a animação para mudar a cor a cada 5 segundos (5000ms) */
       @keyframes changeColor {
         0% {
-          color: rgb(255, 0, 0); /* Vermelho */
-        }
-        25% {
-          color: rgb(0, 255, 0); /* Verde */
-        }
-        50% {
-          color: rgb(0, 0, 255); /* Azul */
-        }
-        75% {
-          color: rgb(255, 255, 0); /* Amarelo */
-        }
-        100% {
-          color: rgb(255, 0, 255); /* Magenta */
-        }
+            color: rgb(0, 166, 255); /* Vermelho */
+          }
+          25% {
+            color: rgb(0, 98, 255); /* Verde */
+          }
+          50% {
+            color: rgb(0, 60, 255); /* Azul */
+          }
+          75% {
+            color: rgb(0, 115, 255); /* Amarelo */
+          }
+          100% {
+            color: rgb(64, 0, 255); /* Magenta */
+          }
       }
       
 }
