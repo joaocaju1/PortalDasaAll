@@ -75,7 +75,7 @@ app.post('/processa_registro', (req, res) => {
         from: 'jgpretti2002@gmail.com',
         to: email,
         subject: 'Link de Autenticação',
-        text: `Clique no link para autenticar: http://localhost:3000/portaldentro.html/autenticar?token=${token}`,
+        text: `Clique no link para autenticar ao portal D.A.S.A: http://localhost:3000/portaldentro.html/autenticar?token=${token}`,
       };
 
       transporter.sendMail(mailOptions, (error, info) => {
